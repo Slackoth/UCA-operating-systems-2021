@@ -179,7 +179,7 @@ int main() {
             }
         }
         else
-            printf("The coordinates (%i,%i) are invalid! Please enter numbers from 1 to 3.\n");
+            printf("The coordinates (%i,%i) are invalid! Please enter numbers from 1 to 3.\n", row, col);
     }
 
     return 0;

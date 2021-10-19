@@ -1,4 +1,3 @@
-/* Tubería sin nombre entre procesos padre e hijo */
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -8,7 +7,6 @@
 
 int main (){
 	int flag, fdChild, fdParent;
-	// char* fifoParent = "jepeto", *fifoChild = "pinocchio";
 	char* fifoName = "valoo";
 	char* pMessage[40], *cMessage = "Sending message from child to parent...";
 
